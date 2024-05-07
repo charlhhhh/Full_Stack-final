@@ -3,7 +3,7 @@
 This project enhances the functionality of the midterm project by integrating a backend and database, ensuring that data persists across page refreshes.
 
 ## Prerequisites
-Before you start, ensure you have MongoDB installed on your machine, as the backend requires a MongoDB database to function.
+Before you start, ensure you have MongoDB, express and node.js installed on your machine, as the backend requires these components to function properly.
 
 ## How to Run
 
@@ -36,6 +36,11 @@ Follow these steps to get the application running on your local machine:
    ```bash
    node take-note.js
    ```
-   The backend server will start and connect to MongoDB.
+   Upon success, you should see messages indicating:
+   ```bash
+   Server running on port 5001
+   Connected to MongoDB
+   ```
+   If there are any issues, refer to the output messages for troubleshooting steps.
 
 After following these steps, the application should be fully functional, and you can interact with it through your web browser at `http://localhost:3000`.
